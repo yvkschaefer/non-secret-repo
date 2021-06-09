@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: non-secret-repo
+  annotations:
+    github.com/project-slug: yvkschaefer/non-secret-repo
+spec:
+  type: other
+  lifecycle: unknown
+  owner: User:yvkschaefer
